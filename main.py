@@ -1,4 +1,8 @@
 class Rooms(object):
+    """Хранит названия, номера и уровни доступа комнат
+
+        Названия и номер комнат должны различаться
+    """
     class director:
         type = "director"
         number = 0
@@ -22,6 +26,10 @@ class Rooms(object):
     room3 = act
     roomsmass = [room0,room1,room2,room3]
 class User(object):
+    """Хранит виды пользователей, их уровень и список всех пользователей
+
+        У каждого пользователя должен быть свой тип
+    """
     class student:
         type = "student"
         lv = 2
